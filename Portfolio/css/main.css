@@ -1,5 +1,6 @@
 main {
     padding: 5%;
+    padding-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,17 +13,18 @@ main .main-content {
 
 main .main-content h2 {
     margin-bottom: 2%;
-    font-size: 2.2em;
+    font-size: 2.0em;
 }
 
 main .main-content .text {
-    margin-top: 10%;
+    margin-top: 5px;
 }
 
 main .main-content .text p {
     width: 75%;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 main .techs .cards-container {
@@ -36,7 +38,8 @@ main .techs .cards-container .card {
     padding: 10px;
     background-color: #eee;
     border-radius: 8px;
-    margin-right: 1.8em;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -59,8 +62,8 @@ main figure {
 }
 
 main figure img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 200px;
     margin-bottom: 6%;
     cursor: pointer;
