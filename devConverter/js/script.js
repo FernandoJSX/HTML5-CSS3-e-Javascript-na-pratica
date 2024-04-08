@@ -23,10 +23,10 @@ function handleSubmmit(e) {
 
 function converter() {
     if (selectCurrency.value === 'eur') {
-        valueConverter = parseFloat(inputValue.value) * 6.22;
+        valueConverter = parseFloat(inputValue.value) / 6.22;
         result.innerHTML = valueFormatter('pt-BR', 'EUR');
     } else if (selectCurrency.value === 'dol') {
-        valueConverter = parseFloat(inputValue.value) * 5.37;
+        valueConverter = parseFloat(inputValue.value) / 5.37;
         result.innerHTML = valueFormatter('en-US', 'USD');
     }
 
